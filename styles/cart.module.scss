@@ -1,0 +1,51 @@
+.title {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 150px;
+    .goods {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+    .total {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        .priceTotal {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            height: 200%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 21px;
+            color: white;
+            width: 100%;
+            background: #101010;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        }
+    }
+}

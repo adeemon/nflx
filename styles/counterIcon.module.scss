@@ -1,0 +1,36 @@
+.container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .counter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        background-color: #FFA542;
+        color: white;
+        border-radius: 50%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        position: relative;
+        left: 20px;
+        top: -29px;
+    }
+    .button {
+        margin-bottom: -17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        svg {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}

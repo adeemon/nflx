@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.categoryName {
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    margin: 20px 0;
+    color: #838383;
+    width: 100%;
+    text-align: left;
+}

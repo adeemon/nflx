@@ -1,0 +1,89 @@
+.container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 407px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+    .image {
+        width: 100%;
+        height: 76%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .priceInfo {
+        color: #FFA542;
+        width: auto;
+        height: 2em;
+        position: relative;
+        top: 5px;
+        .oldPrice {
+            text-decoration: line-through;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+        }
+    }
+    .rate {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+        * {
+            border: none;
+        }
+        button {
+            box-shadow: none;
+        }
+        .rateAmount {
+            font-size: 17px;
+            line-height: 21px;
+            color: #838383;
+        }
+    }
+    .buyButton {
+        width: auto;
+        button {
+            padding: 0;
+            border: none;
+            box-shadow: none;
+            span {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 21px;
+            }
+            &:hover {
+                color: #FFA542;
+            }
+        }
+    }
+    .info {
+        height: 12%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .options {
+        height: 12%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,23 @@
+.container {
+    padding: 5px;
+    height: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .button {
+        margin-left: 10px;
+    }
+}
+
+.companyName {
+    font-size: 25px;
+    line-height: 30px;
+}

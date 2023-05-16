@@ -1,0 +1,15 @@
+import React from 'react';
+import Icon from '@ant-design/icons';
+import type { CustomIconComponentProps } from '@ant-design/icons/lib/components/Icon';
+
+const increaseIcon = () => (
+    <svg width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="18.2559" cy="15" rx="17.5833" ry="15" fill="#FFCE7F"/>
+<path d="M17.0837 14V8H19.4282V14H26.4615V16H19.4282V22H17.0837V16H10.0504V14H17.0837Z" fill="white"/>
+</svg>
+
+)
+
+export const IncreaseIcon = (props: Partial<CustomIconComponentProps>) => (
+    <Icon component={increaseIcon} {...props} />
+);
