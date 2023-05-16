@@ -1,17 +1,13 @@
-import ReactVisibilitySensor from 'react-visibility-sensor'
 import { InferGetStaticPropsType } from 'next'
 import React, { useEffect } from 'react'
 import styles from '../styles/index.module.scss'
 
-// import MempozedMainContainer from '../components/MainContainer'
 import  MemoizedCard  from '../components/ProductCard'
 import { Category, Product } from '../types/Types'
-import { selectAllFavourites } from '../slices/FavouritesSlice'
 import { selectAllProducts } from '../slices/ProductsContainerSlice'
 import { useAppDispatch, useAppSelector } from '../store/store'
 
 export default function Home({products} : InferGetStaticPropsType<typeof getStaticProps>) {
-  const favouritesSelected = useAppSelector(selectAllFavourites);
   const productsSelected = useAppSelector(selectAllProducts);
   const dispatch = useAppDispatch();
 
